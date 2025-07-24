@@ -6,17 +6,17 @@ class WindTurbineRiveModel: RiveViewModel {
     
     init() {
         print("🚀 Initializing WindTurbineRiveModel...")
-        print("📂 Loading: wind_turbine.riv")
+        print("📂 Loading: electro_final.riv")
         print("🎨 Using default artboard (first one)")
         
-        // Try with default artboard first
-        super.init(fileName: "wind_turbine")
+        // Updated to use new filename
+        super.init(fileName: "electro_final")
         
         // Check if file exists
-        if Bundle.main.url(forResource: "wind_turbine", withExtension: "riv") != nil {
-            print("✅ wind_turbine.riv file found in bundle")
+        if Bundle.main.url(forResource: "electro_final", withExtension: "riv") != nil {
+            print("✅ electro_final.riv file found in bundle")
         } else {
-            print("❌ wind_turbine.riv file NOT found in bundle")
+            print("❌ electro_final.riv file NOT found in bundle")
         }
         
         print("🎯 Current renderer: \(RenderContextManager.shared().defaultRenderer.rawValue)")
