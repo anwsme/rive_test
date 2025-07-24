@@ -11,8 +11,9 @@
 		1A0001030000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001020000000000000002 /* ContentView.swift */; };
 		1A0001050000000000000005 /* WindTurbineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001040000000000000004 /* WindTurbineView.swift */; };
 		1A0001070000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0001060000000000000006 /* Assets.xcassets */; };
-		1A0001080000000000000008 /* wind_turbine.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1A0001090000000000000009 /* wind_turbine.riv */; };
 		EF499A012E3237C400D4C7C4 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = EF499A002E3237C400D4C7C4 /* RiveRuntime */; };
+		EF499A042E32395D00D4C7C4 /* electro_final.riv in Resources */ = {isa = PBXBuildFile; fileRef = EF499A022E32395D00D4C7C4 /* electro_final.riv */; };
+		EF499A052E32395D00D4C7C4 /* wind_turbine.riv in Resources */ = {isa = PBXBuildFile; fileRef = EF499A032E32395D00D4C7C4 /* wind_turbine.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +22,9 @@
 		1A0001020000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A0001040000000000000004 /* WindTurbineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTurbineView.swift; sourceTree = "<group>"; };
 		1A0001060000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A0001090000000000000009 /* wind_turbine.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = wind_turbine.riv; sourceTree = "<group>"; };
 		1A000111000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF499A022E32395D00D4C7C4 /* electro_final.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = electro_final.riv; sourceTree = "<group>"; };
+		EF499A032E32395D00D4C7C4 /* wind_turbine.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = wind_turbine.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 				1A0001020000000000000002 /* ContentView.swift */,
 				1A0001040000000000000004 /* WindTurbineView.swift */,
 				1A0001060000000000000006 /* Assets.xcassets */,
-				1A0001090000000000000009 /* wind_turbine.riv */,
+				EF499A022E32395D00D4C7C4 /* electro_final.riv */,
+				EF499A032E32395D00D4C7C4 /* wind_turbine.riv */,
 				1A000111000000000000000B /* Info.plist */,
 			);
 			path = WindTurbineApp;
@@ -131,7 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0001070000000000000007 /* Assets.xcassets in Resources */,
-				1A0001080000000000000008 /* wind_turbine.riv in Resources */,
+				EF499A042E32395D00D4C7C4 /* electro_final.riv in Resources */,
+				EF499A052E32395D00D4C7C4 /* wind_turbine.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

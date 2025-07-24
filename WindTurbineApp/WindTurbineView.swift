@@ -9,7 +9,7 @@ class WindTurbineRiveModel: RiveViewModel {
         print("📂 Loading: electro_final.riv")
         print("🎨 Using default artboard (first one)")
         
-        // Updated to use new filename
+        // Using electro_final.riv (make sure it's added to Xcode project target!)
         super.init(fileName: "electro_final")
         
         // Check if file exists
